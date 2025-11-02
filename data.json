@@ -1,0 +1,950 @@
+{
+  "users": [
+    {
+      "id": 1760265239888,
+      "name": "Aparna",
+      "surname": "Pal",
+      "age": "22",
+      "gender": "Female",
+      "email": "Aparna13@gmail.com",
+      "phone": "9263546789",
+      "regNumber": "2440013",
+      "password": "@Aparna13",
+      "role": "STUDENT"
+    },
+    {
+      "id": 1760283361364,
+      "name": "Aman ",
+      "surname": "Goyal",
+      "age": "18",
+      "gender": "Male",
+      "email": "Aman27@gmail.com",
+      "phone": "9876543233",
+      "regNumber": "2440015",
+      "password": "@Aman27",
+      "role": "ORGANIZER"
+    },
+    {
+      "id": 1760283786473,
+      "name": "Kanchan",
+      "surname": "Goyal",
+      "age": "21",
+      "gender": "Female",
+      "email": "Kanchangoyal0606@gmail.com",
+      "phone": "9263546789",
+      "regNumber": "2440033",
+      "password": "@Kanchan06",
+      "role": "STUDENT",
+      "department": "Computer Science & Engineering",
+      "bloodGroup": "B-",
+      "address": "Etawah Uttar Pradesh",
+      "branch": "CS",
+      "pincode": "206001"
+    },
+    {
+      "id": 1760283991057,
+      "name": "Radhika ",
+      "surname": "Singh",
+      "age": "22",
+      "gender": "Female",
+      "email": "Radhika21@gmail.com",
+      "phone": "7891234564",
+      "regNumber": "2440044",
+      "password": "@Radhika21",
+      "role": "STUDENT",
+      "department": "Chemistry",
+      "bloodGroup": "O-",
+      "address": "Etawah Uttar Pradesh",
+      "branch": "Biology",
+      "pincode": "206001"
+    },
+    {
+      "id": 1760378391121,
+      "name": "Gunjan ",
+      "surname": "Toppo",
+      "age": "21",
+      "gender": "Female",
+      "email": "Gunjan07@gmail.com",
+      "phone": "9263546789",
+      "regNumber": "2440014",
+      "password": "@Gunjan07",
+      "role": "STUDENT"
+    },
+    {
+      "id": 1760379389799,
+      "name": "Konicaa",
+      "surname": "Sharma",
+      "age": "22",
+      "gender": "Female",
+      "email": "Konicaa18@gmail.com",
+      "phone": "9263546789",
+      "regNumber": "2440022",
+      "password": "@Konicaa18",
+      "role": "STUDENT"
+    },
+    {
+      "id": 1760379488749,
+      "name": "Kalpana",
+      "surname": "Jatav",
+      "age": "22",
+      "gender": "Female",
+      "email": "Kalpana18@gmail.com",
+      "phone": "9263546789",
+      "regNumber": "2440023",
+      "password": "@Kalpana18",
+      "role": "STUDENT"
+    },
+    {
+      "id": 1760417996333,
+      "name": "Manish",
+      "surname": "Chopra",
+      "age": "22",
+      "gender": "Male",
+      "email": "Manish18@gmail.com",
+      "phone": "9263546789",
+      "regNumber": "2440025",
+      "password": "@Manish18",
+      "role": "ORGANIZER"
+    }
+  ],
+  "events": [
+    {
+      "id": 1760283516428,
+      "title": "Diwali Party",
+      "date": "2025-10-20",
+      "time": "19:00",
+      "venue": "MAIN GROUND",
+      "category": "Cultural",
+      "capacity": 6,
+      "duration": 180,
+      "taken": 6,
+      "bookings": [
+        {
+          "regNumber": "2440013",
+          "name": "Aparna",
+          "seat": 1,
+          "role": "S",
+          "eventId": 1760283516428
+        },
+        {
+          "regNumber": "2440033",
+          "name": "Kanchan",
+          "seat": 2,
+          "role": "S",
+          "eventId": 1760283516428
+        },
+        {
+          "regNumber": "2440014",
+          "name": "Gunjan ",
+          "seat": 3,
+          "role": "S",
+          "eventId": 1760283516428
+        },
+        {
+          "regNumber": "2440023",
+          "name": "Kalpana",
+          "seat": 4,
+          "role": "S",
+          "eventId": 1760283516428
+        },
+        {
+          "regNumber": "2440022",
+          "name": "Konicaa",
+          "seat": 5,
+          "role": "S",
+          "eventId": 1760283516428,
+          "bookedAt": "2025-10-15T11:29:14.892Z"
+        },
+        {
+          "regNumber": "2440025",
+          "name": "Manish",
+          "seat": 6,
+          "role": "O",
+          "eventId": 1760283516428,
+          "bookedAt": "2025-10-15T11:33:45.570Z"
+        }
+      ],
+      "creatorRegNumber": "2440015",
+      "liveNotificationSent": false,
+      "waitlist": [],
+      "volunteers": [
+        {
+          "regNumber": "2440033",
+          "name": "Kanchan",
+          "volunteerId": "V01",
+          "role": "Registration Desk"
+        },
+        {
+          "regNumber": "2440013",
+          "name": "Aparna",
+          "volunteerId": "V02",
+          "role": "Guest Reception"
+        },
+        {
+          "regNumber": "2440025",
+          "name": "Manish",
+          "volunteerId": "V03",
+          "role": "Media Support"
+        }
+      ],
+      "volunteerRequests": [
+        {
+          "id": 1760542859756,
+          "regNumber": "2440044",
+          "role": "Stage Management",
+          "status": "rejected",
+          "requestedAt": "2025-10-15T15:40:59.756Z"
+        },
+        {
+          "id": 1760542892821,
+          "regNumber": "2440013",
+          "role": "Guest Reception",
+          "status": "accepted",
+          "requestedAt": "2025-10-15T15:41:32.821Z"
+        },
+        {
+          "id": 1760543038852,
+          "regNumber": "2440025",
+          "role": "Media Support",
+          "status": "accepted",
+          "requestedAt": "2025-10-15T15:43:58.852Z"
+        }
+      ]
+    },
+    {
+      "id": 1760283639306,
+      "title": "Pre Diwali Party",
+      "date": "2025-10-12",
+      "time": "22:00",
+      "venue": "MAIN GROUND",
+      "category": "Cultural",
+      "capacity": 2,
+      "duration": 60,
+      "taken": 2,
+      "bookings": [
+        {
+          "regNumber": "2440013",
+          "name": "Aparna",
+          "seat": 1,
+          "role": "S",
+          "eventId": 1760283639306
+        },
+        {
+          "regNumber": "2440033",
+          "name": "Kanchan",
+          "seat": 2,
+          "role": "S",
+          "eventId": 1760283639306
+        }
+      ],
+      "creatorRegNumber": "2440015",
+      "liveNotificationSent": false,
+      "sent60": true,
+      "sent45": true,
+      "sent25": true,
+      "sent10": true,
+      "volunteers": [
+        {
+          "regNumber": "2440033",
+          "name": "Kanchan",
+          "volunteerId": "V01",
+          "role": "Registration Desk"
+        }
+      ]
+    },
+    {
+      "id": 1760418096452,
+      "title": "Engi25",
+      "date": "2025-10-15",
+      "time": "09:00",
+      "venue": "MAIN BUILDING",
+      "category": "Education",
+      "capacity": 2,
+      "duration": 60,
+      "taken": 2,
+      "bookings": [
+        {
+          "regNumber": "2440033",
+          "name": "Kanchan",
+          "seat": 1,
+          "role": "S",
+          "eventId": 1760418096452
+        },
+        {
+          "regNumber": "2440044",
+          "name": "Radhika ",
+          "seat": 2,
+          "role": "S",
+          "eventId": 1760418096452
+        }
+      ],
+      "waitlist": [
+        {
+          "id": 1760418205298,
+          "regNumber": "2440013",
+          "time": "2025-10-14T05:03:25.298Z"
+        }
+      ],
+      "creatorRegNumber": "2440025",
+      "liveNotificationSent": false,
+      "volunteers": [
+        {
+          "regNumber": "2440033",
+          "name": "Kanchan",
+          "volunteerId": "V01",
+          "role": "Stage Management"
+        },
+        {
+          "regNumber": "2440015",
+          "name": "Aman ",
+          "volunteerId": "V02",
+          "role": "Guest Reception"
+        }
+      ]
+    }
+  ],
+  "media": [
+    {
+      "id": 1760284474674,
+      "eventId": 1760283639306,
+      "name": "paper.png",
+      "url": "/uploads/d522fa32cdbf379e82b8eb723efaf2d9.png",
+      "type": "photo"
+    },
+    {
+      "id": 1760284481087,
+      "eventId": 1760283639306,
+      "name": "paper.png",
+      "url": "/uploads/80300d195f8d2549138194e52f7d7ed8.png",
+      "type": "photo"
+    },
+    {
+      "id": 1760284486765,
+      "eventId": 1760283639306,
+      "name": "scissors.png",
+      "url": "/uploads/f2dfa8ef260fb0efe36cdb6c571f3627.png",
+      "type": "photo"
+    },
+    {
+      "id": 1760284657482,
+      "eventId": 1760283639306,
+      "name": "paper.png",
+      "url": "/uploads/5adc5fcb8d59d34215ee8e633f337502.png",
+      "type": "photo"
+    },
+    {
+      "id": 1760284662327,
+      "eventId": 1760283639306,
+      "name": "rock.png",
+      "url": "/uploads/e9950ead94b0458e570563ca806abe93.png",
+      "type": "photo"
+    },
+    {
+      "id": 1760284667143,
+      "eventId": 1760283639306,
+      "name": "scissors.png",
+      "url": "/uploads/d86523efe41ffebdf15417ad6dd37154.png",
+      "type": "photo"
+    }
+  ],
+  "notifications": {
+    "2440013": [
+      {
+        "msg": "✅ You accepted volunteer role 'Guest Reception' for 'Diwali Party'.",
+        "time": "2025-10-15T15:42:14.536Z",
+        "read": true
+      },
+      {
+        "msg": "🤝 Organizer invited you to volunteer for 'Diwali Party' as 'Guest Reception'.",
+        "time": "2025-10-15T15:41:32.821Z",
+        "read": true,
+        "type": "volunteer_request",
+        "eventId": 1760283516428,
+        "role": "Guest Reception"
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-15T11:33:45.570Z",
+        "read": true
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-15T11:32:26.971Z",
+        "read": true
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-15T11:32:20.107Z",
+        "read": true
+      },
+      {
+        "msg": "📝 You joined the waitlist for 'Engi25'. We'll auto-book if a seat opens.",
+        "time": "2025-10-14T05:03:25.298Z",
+        "read": true
+      },
+      {
+        "msg": "📢 New Event: Engi25 on 2025-10-15",
+        "time": "2025-10-14T05:01:36.452Z",
+        "read": true
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-13T18:22:03.881Z",
+        "read": true
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-13T18:02:57.102Z",
+        "read": true
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-13T18:02:32.484Z",
+        "read": true
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-13T17:41:25.170Z",
+        "read": true
+      },
+      {
+        "msg": "⏳ Reminder: 'Pre Diwali Party' starts in about 10 minutes!",
+        "time": "2025-10-12T16:21:25.984Z",
+        "read": true
+      },
+      {
+        "msg": "⏳ Reminder: 'Pre Diwali Party' starts in about 25 minutes!",
+        "time": "2025-10-12T16:21:25.984Z",
+        "read": true
+      },
+      {
+        "msg": "⏳ Reminder: 'Pre Diwali Party' starts in about 45 minutes!",
+        "time": "2025-10-12T16:21:25.984Z",
+        "read": true
+      },
+      {
+        "msg": "⏳ Reminder: 'Pre Diwali Party' starts in about 60 minutes!",
+        "time": "2025-10-12T16:21:25.984Z",
+        "read": true
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-12T15:55:27.735Z",
+        "read": true
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-12T15:55:18.820Z",
+        "read": true
+      },
+      {
+        "msg": "🎟️ You booked a ticket for Diwali Party",
+        "time": "2025-10-12T15:42:03.637Z",
+        "read": true
+      },
+      {
+        "msg": "🎟️ You booked a ticket for Pre Diwali Party",
+        "time": "2025-10-12T15:41:57.325Z",
+        "read": true
+      },
+      {
+        "msg": "📢 New Event: Pre Diwali Party on 2025-10-12",
+        "time": "2025-10-12T15:40:39.306Z",
+        "read": true
+      },
+      {
+        "msg": "📢 New Event: Diwali Party on 2025-10-20",
+        "time": "2025-10-12T15:38:36.428Z",
+        "read": true
+      }
+    ],
+    "2440014": [
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-15T11:33:45.570Z",
+        "read": false
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-15T11:32:26.971Z",
+        "read": false
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-15T11:32:20.107Z",
+        "read": false
+      },
+      {
+        "msg": "📢 New Event: Engi25 on 2025-10-15",
+        "time": "2025-10-14T05:01:36.452Z",
+        "read": false
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-13T18:22:03.881Z",
+        "read": false
+      },
+      {
+        "msg": "❌ Your ticket for 'Diwali Party' was cancelled by the organizer.",
+        "time": "2025-10-13T18:20:24.852Z",
+        "read": false
+      },
+      {
+        "msg": "✅ A seat opened up for 'Diwali Party'. You have been auto-booked from the waitlist.",
+        "time": "2025-10-13T18:18:44.969Z",
+        "read": false
+      },
+      {
+        "msg": "🎟️ You booked a ticket for Diwali Party",
+        "time": "2025-10-13T18:13:30.767Z",
+        "read": false
+      },
+      {
+        "msg": "📝 You joined the waitlist for 'Diwali Party'. We'll auto-book if a seat opens.",
+        "time": "2025-10-13T17:59:58.166Z",
+        "read": false
+      }
+    ],
+    "2440015": [
+      {
+        "msg": "✅ 2440025 accepted volunteer role 'Media Support' for 'Diwali Party'.",
+        "time": "2025-10-15T15:44:50.539Z",
+        "read": false
+      },
+      {
+        "msg": "❌ 2440044 rejected volunteer role 'Stage Management' for 'Diwali Party'.",
+        "time": "2025-10-15T15:43:00.172Z",
+        "read": false
+      },
+      {
+        "msg": "✅ 2440013 accepted volunteer role 'Guest Reception' for 'Diwali Party'.",
+        "time": "2025-10-15T15:42:14.536Z",
+        "read": false
+      },
+      {
+        "msg": "🤝 You are assigned as a volunteer for 'Engi25' as 'Guest Reception'. ID: V02",
+        "time": "2025-10-15T11:37:43.288Z",
+        "read": false
+      },
+      {
+        "msg": "📢 New Event: Engi25 on 2025-10-15",
+        "time": "2025-10-14T05:01:36.452Z",
+        "read": true
+      },
+      {
+        "msg": "✅ Message sent to organizer for 'Diwali Party'",
+        "time": "2025-10-13T17:49:57.747Z",
+        "read": true,
+        "type": "chat",
+        "eventId": 1760283516428,
+        "fromReg": "2440015",
+        "toReg": "2440044"
+      },
+      {
+        "msg": "✅ Message sent to organizer for 'Diwali Party'",
+        "time": "2025-10-13T17:49:51.149Z",
+        "read": true,
+        "type": "chat",
+        "eventId": 1760283516428,
+        "fromReg": "2440015",
+        "toReg": "2440033"
+      },
+      {
+        "msg": "💬 New message on 'Diwali Party'",
+        "time": "2025-10-13T17:48:53.285Z",
+        "read": true,
+        "type": "chat",
+        "eventId": 1760283516428,
+        "fromReg": "2440044",
+        "toReg": "2440015"
+      },
+      {
+        "msg": "💬 New message on 'Diwali Party'",
+        "time": "2025-10-13T17:45:10.652Z",
+        "read": true,
+        "type": "chat",
+        "eventId": 1760283516428,
+        "fromReg": "2440033",
+        "toReg": "2440015"
+      },
+      {
+        "msg": "📢 New Event: Pre Diwali Party on 2025-10-12",
+        "time": "2025-10-12T15:40:39.306Z",
+        "read": true
+      },
+      {
+        "msg": "📢 New Event: Diwali Party on 2025-10-20",
+        "time": "2025-10-12T15:38:36.428Z",
+        "read": true
+      }
+    ],
+    "2440022": [
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-15T11:33:45.570Z",
+        "read": false
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-15T11:32:26.971Z",
+        "read": false
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-15T11:32:20.107Z",
+        "read": false
+      },
+      {
+        "msg": "🎟️ You booked a ticket for Diwali Party",
+        "time": "2025-10-15T11:29:14.892Z",
+        "read": false
+      },
+      {
+        "msg": "📢 New Event: Engi25 on 2025-10-15",
+        "time": "2025-10-14T05:01:36.452Z",
+        "read": false
+      },
+      {
+        "msg": "📝 You joined the waitlist for 'Diwali Party'. We'll auto-book if a seat opens.",
+        "time": "2025-10-13T18:21:40.947Z",
+        "read": false
+      },
+      {
+        "msg": "❌ Your ticket for 'Diwali Party' was cancelled by the organizer.",
+        "time": "2025-10-13T18:20:31.033Z",
+        "read": false
+      },
+      {
+        "msg": "✅ A seat opened up for 'Diwali Party'. You have been auto-booked from the waitlist.",
+        "time": "2025-10-13T18:20:24.852Z",
+        "read": false
+      },
+      {
+        "msg": "📝 You joined the waitlist for 'Diwali Party'. We'll auto-book if a seat opens.",
+        "time": "2025-10-13T18:16:35.514Z",
+        "read": false
+      }
+    ],
+    "2440023": [
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-15T11:33:45.570Z",
+        "read": false
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-15T11:32:26.971Z",
+        "read": false
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-15T11:32:20.107Z",
+        "read": false
+      },
+      {
+        "msg": "📢 New Event: Engi25 on 2025-10-15",
+        "time": "2025-10-14T05:01:36.452Z",
+        "read": false
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-13T18:22:03.881Z",
+        "read": false
+      },
+      {
+        "msg": "✅ A seat opened up for 'Diwali Party'. You have been auto-booked from the waitlist.",
+        "time": "2025-10-13T18:20:31.033Z",
+        "read": false
+      },
+      {
+        "msg": "📝 You joined the waitlist for 'Diwali Party'. We'll auto-book if a seat opens.",
+        "time": "2025-10-13T18:18:13.313Z",
+        "read": false
+      }
+    ],
+    "2440025": [
+      {
+        "msg": "✅ You accepted volunteer role 'Media Support' for 'Diwali Party'.",
+        "time": "2025-10-15T15:44:50.539Z",
+        "read": true
+      },
+      {
+        "msg": "🤝 Organizer invited you to volunteer for 'Diwali Party' as 'Media Support'.",
+        "time": "2025-10-15T15:43:58.852Z",
+        "read": true,
+        "type": "volunteer_request",
+        "eventId": 1760283516428,
+        "role": "Media Support"
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-15T11:33:45.570Z",
+        "read": true
+      },
+      {
+        "msg": "🎉 Great news! You've been auto-booked for 'Diwali Party' due to increased capacity. Your seat: 6",
+        "time": "2025-10-15T11:33:45.570Z",
+        "read": true
+      },
+      {
+        "msg": "📝 You joined the waitlist for 'Diwali Party'. We'll auto-book if a seat opens.",
+        "time": "2025-10-15T11:32:57.540Z",
+        "read": true
+      },
+      {
+        "msg": "📢 New Event: Engi25 on 2025-10-15",
+        "time": "2025-10-14T05:01:36.452Z",
+        "read": true
+      }
+    ],
+    "2440033": [
+      {
+        "msg": "🤝 You are assigned as a volunteer for 'Engi25' as 'Stage Management'. ID: V01",
+        "time": "2025-10-15T11:37:32.121Z",
+        "read": false
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-15T11:33:45.570Z",
+        "read": false
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-15T11:32:26.971Z",
+        "read": false
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-15T11:32:20.107Z",
+        "read": false
+      },
+      {
+        "msg": "🤝 You are assigned as a volunteer for 'Pre Diwali Party' as 'Registration Desk'. ID: V01",
+        "time": "2025-10-15T11:23:51.643Z",
+        "read": true
+      },
+      {
+        "msg": "🤝 You are assigned as a volunteer for 'Diwali Party' as 'Registration Desk'. ID: V01",
+        "time": "2025-10-15T11:22:44.112Z",
+        "read": true
+      },
+      {
+        "msg": "🎟️ You booked a ticket for Engi25",
+        "time": "2025-10-14T05:02:24.449Z",
+        "read": true
+      },
+      {
+        "msg": "📢 New Event: Engi25 on 2025-10-15",
+        "time": "2025-10-14T05:01:36.452Z",
+        "read": true
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-13T18:22:03.881Z",
+        "read": true
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-13T18:02:57.102Z",
+        "read": true
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-13T18:02:32.484Z",
+        "read": true
+      },
+      {
+        "msg": "💬 New message on 'Diwali Party'",
+        "time": "2025-10-13T17:49:51.149Z",
+        "read": true,
+        "type": "chat",
+        "eventId": 1760283516428,
+        "fromReg": "2440015",
+        "toReg": "2440033"
+      },
+      {
+        "msg": "✅ Message sent to organizer for 'Diwali Party'",
+        "time": "2025-10-13T17:45:10.652Z",
+        "read": true,
+        "type": "chat",
+        "eventId": 1760283516428,
+        "fromReg": "2440033",
+        "toReg": "2440015"
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-13T17:41:25.170Z",
+        "read": true
+      },
+      {
+        "msg": "⏳ Reminder: 'Pre Diwali Party' starts in about 10 minutes!",
+        "time": "2025-10-12T16:21:25.984Z",
+        "read": true
+      },
+      {
+        "msg": "⏳ Reminder: 'Pre Diwali Party' starts in about 25 minutes!",
+        "time": "2025-10-12T16:21:25.984Z",
+        "read": true
+      },
+      {
+        "msg": "⏳ Reminder: 'Pre Diwali Party' starts in about 45 minutes!",
+        "time": "2025-10-12T16:21:25.984Z",
+        "read": true
+      },
+      {
+        "msg": "⏳ Reminder: 'Pre Diwali Party' starts in about 60 minutes!",
+        "time": "2025-10-12T16:21:25.984Z",
+        "read": true
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-12T15:55:27.735Z",
+        "read": true
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-12T15:55:18.820Z",
+        "read": true
+      },
+      {
+        "msg": "🎟️ You booked a ticket for Diwali Party",
+        "time": "2025-10-12T15:44:28.890Z",
+        "read": true
+      },
+      {
+        "msg": "🎟️ You booked a ticket for Pre Diwali Party",
+        "time": "2025-10-12T15:44:25.889Z",
+        "read": true
+      }
+    ],
+    "2440044": [
+      {
+        "msg": "❌ You rejected volunteer role 'Stage Management' for 'Diwali Party'.",
+        "time": "2025-10-15T15:43:00.172Z",
+        "read": false
+      },
+      {
+        "msg": "🤝 Organizer invited you to volunteer for 'Diwali Party' as 'Stage Management'.",
+        "time": "2025-10-15T15:40:59.756Z",
+        "read": false,
+        "type": "volunteer_request",
+        "eventId": 1760283516428,
+        "role": "Stage Management"
+      },
+      {
+        "msg": "🎟️ You booked a ticket for Engi25",
+        "time": "2025-10-14T05:03:00.014Z",
+        "read": false
+      },
+      {
+        "msg": "📢 New Event: Engi25 on 2025-10-15",
+        "time": "2025-10-14T05:01:36.452Z",
+        "read": false
+      },
+      {
+        "msg": "✅ Your ticket for 'Diwali Party' has been cancelled.",
+        "time": "2025-10-13T18:18:44.969Z",
+        "read": false
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-13T18:02:57.102Z",
+        "read": false
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-13T18:02:32.484Z",
+        "read": false
+      },
+      {
+        "msg": "💬 New message on 'Diwali Party'",
+        "time": "2025-10-13T17:49:57.747Z",
+        "read": false,
+        "type": "chat",
+        "eventId": 1760283516428,
+        "fromReg": "2440015",
+        "toReg": "2440044"
+      },
+      {
+        "msg": "✅ Message sent to organizer for 'Diwali Party'",
+        "time": "2025-10-13T17:48:53.285Z",
+        "read": false,
+        "type": "chat",
+        "eventId": 1760283516428,
+        "fromReg": "2440044",
+        "toReg": "2440015"
+      },
+      {
+        "msg": "🎟️ You booked a ticket for Diwali Party",
+        "time": "2025-10-13T17:48:43.854Z",
+        "read": false
+      },
+      {
+        "msg": "✅ Your ticket for 'Diwali Party' has been cancelled.",
+        "time": "2025-10-13T17:48:37.995Z",
+        "read": false
+      },
+      {
+        "msg": "🎟️ You booked a ticket for Diwali Party",
+        "time": "2025-10-13T17:48:03.155Z",
+        "read": false
+      },
+      {
+        "msg": "⚠️ Event Diwali Party is full.",
+        "time": "2025-10-12T16:26:35.440Z",
+        "read": false
+      },
+      {
+        "msg": "⚠️ Event Pre Diwali Party is full.",
+        "time": "2025-10-12T16:01:29.331Z",
+        "read": false
+      },
+      {
+        "msg": "⚠️ Event Diwali Party is full.",
+        "time": "2025-10-12T16:01:25.530Z",
+        "read": false
+      },
+      {
+        "msg": "⚠️ Event Diwali Party is full.",
+        "time": "2025-10-12T16:01:21.713Z",
+        "read": false
+      },
+      {
+        "msg": "✅ Your ticket for 'Diwali Party' has been cancelled.",
+        "time": "2025-10-12T16:01:15.625Z",
+        "read": false
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-12T15:55:27.735Z",
+        "read": false
+      },
+      {
+        "msg": "✏️ Event Updated: Details for 'Diwali Party' have changed.",
+        "time": "2025-10-12T15:55:18.820Z",
+        "read": false
+      },
+      {
+        "msg": "⚠️ Event Pre Diwali Party is full.",
+        "time": "2025-10-12T15:50:09.806Z",
+        "read": false
+      },
+      {
+        "msg": "🎟️ You booked a ticket for Diwali Party",
+        "time": "2025-10-12T15:47:15.405Z",
+        "read": false
+      },
+      {
+        "msg": "⚠️ Event Pre Diwali Party is full.",
+        "time": "2025-10-12T15:47:01.190Z",
+        "read": false
+      },
+      {
+        "msg": "⚠️ Event Pre Diwali Party is full.",
+        "time": "2025-10-12T15:46:55.507Z",
+        "read": false
+      }
+    ]
+  },
+  "messages": []
+}
