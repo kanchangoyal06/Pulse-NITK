@@ -614,7 +614,10 @@ app.put("/api/profile", (req, res) => {
 });
 
 app.use("/uploads", express.static(UPLOAD_DIR));
-app.listen(8080, () => console.log("✅ Backend running at http://localhost:8080"));
+//app.listen(8080, () => console.log("✅ Backend running at http://localhost:8080"));
+app.listen(process.env.PORT || 8080, () => {
+    console.log(`✅ Backend running on port ${process.env.PORT || 8080}`);
+});
 
 // ---------- Messages (Chat) ----------
 // Send a message related to an event between a student and the organizer
